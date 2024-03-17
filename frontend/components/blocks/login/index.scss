@@ -1,0 +1,26 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login-container {
+    height: 500px;
+    width: 55%;
+    // background-color: red;
+    display: flex;
+
+    .login-left {
+      width: 50%;
+      //   background-color: blue;
+      background-image: url("/bg.jpeg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    .login-right {
+      width: 50%;
+      background-color: green;
+    }
+  }
+}
